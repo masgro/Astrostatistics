@@ -1,0 +1,3 @@
+      integer nphotons,mubins,nlevel
+
+      common /p2/ nphotons,mubins,nlevel

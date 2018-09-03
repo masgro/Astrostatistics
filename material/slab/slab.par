@@ -1,0 +1,12 @@
+ $slab
+  nphotons=1000000,
+  i1=-397856,
+  mubins=10,
+  nlevel=10,
+  taumax=10.,
+  albedo=1.,
+ $
+
+
+
+

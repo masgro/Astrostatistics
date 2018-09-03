@@ -1,0 +1,34 @@
+		----------------------------------------
+		PLANE PARALLEL ISOTROPIC SCATTERING CODE
+		----------------------------------------
+
+This directory contains the source codes for the plane parallel, isotropic 
+scattering code.  The code runs on SGI and SUN workstations and PCs running 
+LINUX.  Unlike the 3D grid codes, the plane parallel code passes some 
+arguments via COMMON blocks.
+
+The FORTRAN files are:
+
+	iarray.f  
+	isoscatt.f  
+	moments.f  
+	newphot.f  
+	output.f  
+	planepar.f  
+	ran2.f
+
+Include files are:
+
+	arrays.txt  
+	blob.txt  
+	random.txt
+
+Input parameters are in:
+
+	slab.par
+
+The file that compiles the code and creates the executable file 'slab' is:
+
+	Makefile
+
+

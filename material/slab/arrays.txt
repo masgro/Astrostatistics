@@ -1,0 +1,11 @@
+      integer nmu,nlev
+
+      parameter(nmu=20,nlev=21)
+
+      real energy(nmu),erri(nmu),intensity(nmu),sigmai(nmu),theta(nmu)
+      real jplus(nlev),jminus(nlev),hplus(nlev),hminus(nlev)
+      real kplus(nlev),kminus(nlev)
+
+      common /arrays/ energy,erri,intensity,sigmai,theta,jplus,jminus,
+     $                hplus,hminus,kplus,kminus
+
